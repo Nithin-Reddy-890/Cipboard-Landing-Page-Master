@@ -144,4 +144,42 @@ p {
 }
 
 /* Section-2 Styles End */
-/* Main Styles End */
+
+/* Section-3 Styles Start */
+
+.section-3-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.row-1 {
+  display: flex;
+  margin-bottom: 4rem;
+  gap: 2rem;
+}
+
+.row-1 .col {
+  flex: 1;
+  text-align: center;
+}
+.row-1 .col img {
+  margin-bottom: 1.5rem;
+  height: 40px;
+}
+.row-1 .col h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.row-1 .col p {
+  font-size: 0.75rem;
+}
+
+.row-2 {
+  display: flex;
+  margin-bottom: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
