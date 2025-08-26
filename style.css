@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --Green-500: hsl(171, 66%, 44%);
+  --Blue-100: hsl(233, 100%, 69%);
+  --Gray-700: hsl(210, 10%, 33%);
+  --Gray-500: hsl(201, 11%, 66%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+
+/* Utility Classes Start */
+h1,
+h2,
+h3 {
+  color: white;
+  color: var(--Gray-700);
+  text-align: center;
+}
+
+p {
+  color: var(--Gray-500);
+  line-height: 1.6;
+  text-align: center;
+}
+.download {
+  margin-top: 2rem;
+}
+.download-link {
+  display: inline-block;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1.3rem;
+  border-radius: 30px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  transition: background-color 0.3s ease;
+}
+
+.iOS {
+  background-color: var(--Green-500);
+}
+
+.iOS:hover {
+  background-color: hsl(171, 66%, 31%);
+}
+
+.Mac {
+  background-color: var(--Blue-100);
+}
+
+.Mac:hover {
+  background-color: hsl(233, 71%, 39%);
+}
+
+/* Utility Classes End */
+
+/* Header Styles Start */
+#header {
+  background: url(./images/bg-header-desktop.png) no-repeat center center/cover;
+}
+
+.header-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container img {
+  margin-bottom: 3rem;
+}
+.header-container h1 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+/* Header Styles End */
