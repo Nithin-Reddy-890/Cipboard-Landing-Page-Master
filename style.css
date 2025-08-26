@@ -93,20 +93,20 @@ p {
 /* Main Styles Start */
 /* Section-1 Styles Start */
 
-.section-1-header {
+.section-header {
   max-width: 700px;
   margin: 0 auto 2rem;
   padding: 2rem 1rem;
 }
 
-.section-1-header h2 {
+.section-header h2 {
   margin-bottom: 1rem;
   font-weight: 600;
   font-size: 2rem;
   text-align: center;
 }
 
-.section-1-header p {
+.section-header p {
   font-size: 0.875rem;
   text-align: center;
 }
@@ -114,7 +114,8 @@ p {
 .row {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 0 25rem 0 7rem;
   margin: 2rem 0;
 }
 .row .actions {
@@ -132,4 +133,11 @@ p {
   font-size: 0.8rem;
 }
 /* Section-1 Styles End */
+
+.section-2 {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+/* Section-2 Styles End */
 /* Main Styles End */
