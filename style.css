@@ -19,7 +19,6 @@
 h1,
 h2,
 h3 {
-  color: white;
   color: var(--Gray-700);
 }
 
@@ -93,10 +92,14 @@ p {
 /* Main Styles Start */
 /* Section-1 Styles Start */
 
+.section-1,
+.section-2 {
+  padding: 0 2rem;
+}
+
 .section-header {
   max-width: 700px;
-  margin: 0 auto 2rem;
-  padding: 2rem 1rem;
+  margin: 0 auto 4rem;
 }
 
 .section-header h2 {
@@ -113,14 +116,15 @@ p {
 
 .row {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 25rem 0 7rem;
   margin: 2rem 0;
+  justify-content: space-around;
+  align-items: center;
 }
+
 .row .actions {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 4rem;
 }
 
