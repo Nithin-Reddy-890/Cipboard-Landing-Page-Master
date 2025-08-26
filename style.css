@@ -21,13 +21,11 @@ h2,
 h3 {
   color: white;
   color: var(--Gray-700);
-  text-align: center;
 }
 
 p {
   color: var(--Gray-500);
   line-height: 1.6;
-  text-align: center;
 }
 .download {
   margin-top: 2rem;
@@ -85,5 +83,53 @@ p {
   margin-bottom: 1rem;
   font-weight: 600;
   font-size: 2.5rem;
+  text-align: center;
+}
+.header-container p {
+  text-align: center;
 }
 /* Header Styles End */
+
+/* Main Styles Start */
+/* Section-1 Styles Start */
+
+.section-1-header {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  padding: 2rem 1rem;
+}
+
+.section-1-header h2 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.section-1-header p {
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}
+.row .actions {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.action h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.action p {
+  font-size: 0.8rem;
+}
+/* Section-1 Styles End */
+/* Main Styles End */
