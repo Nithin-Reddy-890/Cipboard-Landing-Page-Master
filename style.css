@@ -36,7 +36,7 @@ p {
   color: white;
   padding: 0.5rem 1.3rem;
   border-radius: 30px;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 400;
   transition: background-color 0.3s ease;
 }
@@ -86,6 +86,7 @@ p {
 }
 .header-container p {
   text-align: center;
+  font-size: 1rem;
 }
 /* Header Styles End */
 
@@ -110,7 +111,7 @@ p {
 }
 
 .section-header p {
-  font-size: 0.875rem;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -129,12 +130,12 @@ p {
 }
 
 .action h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
 
 .action p {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 /* Section-1 Styles End */
 
@@ -147,7 +148,8 @@ p {
 
 /* Section-3 Styles Start */
 
-.section-3-content {
+.section-3-content,
+.section-4 .download-links {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
@@ -168,12 +170,12 @@ p {
   height: 40px;
 }
 .row-1 .col h3 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .row-1 .col p {
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .row-2 {
@@ -182,4 +184,18 @@ p {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+/* Section-3 Styles End */
+
+/* Section-4 Styles Start */
+
+.section-4 {
+  margin: 5rem 0;
+  padding: 0 2rem;
+  text-align: center;
+}
+.section-4 .section-header {
+  max-width: 700px;
+  margin: 0 auto 3rem;
 }
