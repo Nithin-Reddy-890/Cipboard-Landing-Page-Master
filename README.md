@@ -40,7 +40,7 @@ Users should be able to:
 ## 🖥️ Desktop
 
 <p align="center">
-  <img src="design/desktop-design.jpg" alt="Desktop Design" width="700"/>
+  <img src="design/desktop-design.png" alt="Desktop Design" width="700"/>
 </p>
 
 ## 💻 Laptop
